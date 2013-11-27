@@ -2,6 +2,6 @@ module.exports = {
 'HOSTPATH': 'http://localhost:3000',
 'PORT': 3000,
 'EXPRESS_SESSION_SECRET': '123456',
-'TWITTER_CONSUMER_KEY': 'd39cPod73hvz13hVmqHg',
-'TWITTER_CONSUMER_SECRET': 'QHIl9IHLkV45gBBCgW8VVMiCwuON1Ng85WdaKmlmOs',
+'TWITTER_CONSUMER_KEY': '',     //change using your consumer key
+'TWITTER_CONSUMER_SECRET': '',  //change using your consumer secret
 };

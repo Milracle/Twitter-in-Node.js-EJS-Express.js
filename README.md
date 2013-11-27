@@ -23,3 +23,12 @@ Install dependencies used here with npm
 - <code> npm install express  </code>
 - <code> npm install ejs </code>
 
+
+Boot the app
+--------------
+
+That's all the setup you need. Phew. Now you can boot the app:
+
+<code> node Config.js </code>
+
+Now, if you open http://127.0.0.1:3000 you'll see the default express page with different options. Click on "connect" link to authenticate twitter, once its done "Universe is yours" !  

@@ -1,0 +1,23 @@
+<% include header.html %>
+
+<hr/>
+
+<h1><%= title %></h1>
+<h3> Your Screen Name : <%= name %> </h3>
+<hr/>
+<table width="100%" align="center">
+  <% users.forEach(function(user){ %>
+	<tr>
+		<td width="8%"> 
+			<img src='<%= user.image %>' width='70px' /> 
+		</td>
+		<td width="70%"> 
+			<h3> Screen Name : </h3> <%= user.name %>
+		</td>
+	</tr>
+  <% }) %>
+</table>
+
+<hr/>
+
+<% include footer.html %>

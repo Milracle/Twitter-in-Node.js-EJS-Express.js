@@ -1,0 +1,16 @@
+<% include header.html %>
+
+<hr/>
+
+<h1><%= title %></h1>
+<h3> Screen Name : <%= name %> </h3>
+<h3> JSON : </h3>
+<div width="100%">
+<pre>
+<%= JSON.stringify(response, null, 4) %>
+</pre>
+</div>
+<p></p>
+<hr/>
+
+<% include footer.html %>

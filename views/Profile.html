@@ -1,0 +1,27 @@
+<% include header.html %>
+
+<hr/>
+
+<h1><%= title %></h1>
+
+<table width="100%" align="center">
+<tr>
+<td width="10%"> 
+<img src='<%= user.profile_image_url %>' width='100px' /> 
+</td>
+<td width="70%"> 
+	<h3> Screen Name : </h3> <%= user.screen_name %>
+	<h3> User Name : </h3> <%= user.name %>
+</td>
+</tr>
+</table>
+<hr/>
+<h1>Json Data : </h1>
+
+<div width="100%">
+<pre>
+<%= JSON.stringify(user, null, 4) %>
+</pre>
+</div>
+<hr/>
+<% include footer.html %>
